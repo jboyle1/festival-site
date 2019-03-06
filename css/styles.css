@@ -4,29 +4,149 @@
 
 /* Global */
 
-body
-{
-	background: black; 
-	margin:30px;
-
-	
+html, body {
+  height: 100%;
+  margin: 0;
 }
 
+	
+
+
 a {
-	text-decoration: none:
+	text-decoration: none;
+}
+
+/* Top Bar */
+
+.logo{
+	float: left;
+	display: inline-block;
+	margin-left: 30px;
+	margin-top: 30px;
 }
 
 
 /* Social */
 
 .fa-instagram {
+	float: right;
 	color: white;
 	text-decoration: none;
+	width: 100px;
+	
 }
 
 .fa-twitter {
+	
 	color: white;
 	text-decoration: none;
+	width: 100px;
 }
 
 
+
+
+
+
+header {
+	background-color: black;
+	position: fixed;
+	width: 100%;
+}
+
+.col-xs-4 {
+	
+}
+
+.district-19-top {
+	
+	text-align: center;
+	margin-top: 28px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.menu {
+	float: right;
+	display: inline-block;
+	margin-right: 30px;
+	margin-top: 33px;
+}
+
+.menu-icon {
+	float: right;
+	display: inline-block;
+	margin-right: 30px;
+	margin-top: 33px;
+}
+
+
+
+.top-bar {
+	width: 100%;
+	
+}
+
+.container-fluid {
+	
+}
+
+section {
+	background-color: black;
+}
+
+article {
+	background-color: black;
+}
+
+footer {
+	background-color: black;
+	bottom: 0;
+	position:fixed;
+	width: 100%;
+}
+
+.bottom-bar {
+  min-height: 100%;
+	margin-bottom: 30px;
+}
+.footer {
+  height: 50px;
+}
+
+.side-branding {
+	
+}
+
+.Branding {
+	height: 400px;
+}
+
+.district-19-bottom {
+	text-align: center;
+	margin-top: 73px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.twitter {
+	float: left;
+	display: inline-block;
+	margin-left: 30px;
+	margin-top: 48px;
+}
+
+.instagram {
+	float: right;
+	display: inline-block;
+	margin-right: 30px;
+	margin-top: 51px;
+	margin-right: -35px;
+}
+
+
+
+.fab {
+	
+}
