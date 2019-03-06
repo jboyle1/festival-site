@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/* Global */
+
+body
+{
+	background: black; 
+	margin:30px;
+
+	
+}
+
+a {
+	text-decoration: none:
+}
+
+
+/* Social */
+
+.fa-instagram {
+	color: white;
+	text-decoration: none;
+}
+
+.fa-twitter {
+	color: white;
+	text-decoration: none;
+}
+
+
