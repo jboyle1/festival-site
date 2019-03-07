@@ -108,21 +108,54 @@ header {
 	height: 400px;
 }
 
+
+
+.branding {
+	
+position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -413px;
+	
+  	
+	
+}
+
+article {
+	
+	margin: auto;
+	text-align: center;
+	width: 100%;
+
+	z-index: 2;
+	
+}
+
+.impact-white {
+	margin: auto;
+	text-align: center;
+	vertical-align: middle;
+	
+	
+}
+/* Side Branding */
+
 aside {
     
 	width: 100%;
   
 	z-index: 2;
 }
-
-/* Side Branding */
-
 .side-branding {
 	
-
-	width: 100%;
+width: 100%;
 	
-  z-index:2 ;
+  margin: 0;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .side-branding-left {
@@ -134,7 +167,7 @@ aside {
 	float: left;
 	margin-left: -65px;
 	height: 100%;
-	position:absolute;
+	position: fixed;
     left:0;
     clear:both; 
 	z-index: 2;
@@ -150,7 +183,7 @@ aside {
 	float: right;
 	margin-right: -65px;
 	height: 100%;
-	position:absolute;
+	position: fixed;
     right:0;
     clear:both;
 	z-index: 2;
@@ -208,34 +241,6 @@ footer {
 
 
 
-.branding {
-	
-position: fixed;
-  top: 50%;
-  left: 50%;
-  margin-top: -200px;
-  margin-left: -400px;
-	
-  	
-	
-}
 
-article {
-	
-	margin: auto;
-	text-align: center;
-	width: 100%;
-
-	z-index: 2;
-	
-}
-
-.impact-white {
-	margin: auto;
-	text-align: center;
-	vertical-align: middle;
-	margin-bottom: -200px;
-	
-}
 
 
