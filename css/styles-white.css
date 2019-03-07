@@ -2,13 +2,18 @@
 /* CSS Document */
 
 
+
 /* Global */
 
-html, body {
+
+
+
+html, body2 {
   height: 100%;
   margin: 0;
-  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 11)), url("");
+  background: -webkit-linear-gradient(top, rgba(255,255 ,255 , 1), rgba(255, 255, 255, 1)), url("");
 }
+
 
 section {
 	
@@ -40,7 +45,7 @@ header {
 
 .fa-instagram {
 	float: right;
-	color: white;
+	color: black;
 	text-decoration: none;
 	width: 100px;
 	
@@ -48,13 +53,36 @@ header {
 
 .fa-twitter {
 	
+	color: black;
+	text-decoration: none;
+	width: 100px;
+}
+
+.fa-instagram2 {
+	float: white;
+	color: black;
+	text-decoration: none;
+	width: 100px;
+	
+}
+
+.fa-twitter2 {
+	
 	color: white;
 	text-decoration: none;
 	width: 100px;
 }
 
+.fa-instagram:hover{
+	color: black;
+	text-decoration: none;
+}
 
 
+.fa-twitter:hover{
+	color: black;
+	text-decoration: none;
+}
 
 
 
@@ -113,8 +141,8 @@ header {
 position: fixed;
   top: 50%;
   left: 50%;
-  margin-top: -200px;
-  margin-left: -413px;
+  margin-top: -184px;
+  margin-left: -437px;
 	
   	
 	
@@ -130,10 +158,14 @@ article {
 	
 }
 
-.impact-white {
+.menu-white {
 	margin: auto;
-	text-align: center;
+	text-align: right;
 	vertical-align: middle;
+	position: absolute;
+	float: right;
+	transition: 0.4;
+	
 	
 	
 }
@@ -269,3 +301,18 @@ img.impact-white{height: auto;}
   margin-top: -100px;
   margin-left: -211px;
 }
+
+.menu-items {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: -34px;	
+	transition: 0.4;
+	
+}
+
+.menu-items:hover{
+	 transition: 0.4;
+  
+}
+
+
