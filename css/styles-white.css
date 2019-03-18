@@ -79,7 +79,10 @@ header {
 	color: black;
 	text-decoration: none;
 	width: 100px;
+	
 }
+
+
 .fa-twitter {
 	color: black;
 	text-decoration: none;
@@ -98,11 +101,19 @@ header {
 	width: 100px;
 }
 .fa-instagram:hover {
-	color: black;
+	color: #e84610;
+	transition: all 0.35s ease-in-out;
+	-moz-transition: all 0.35s ease-in-out;
+	-webkit-transition: all 0.35s ease-in-out;
+	-o-transition: all 0.35s ease-in-out;
 	text-decoration: none;
 }
 .fa-twitter:hover {
-	color: black;
+	color: #e84610;
+	transition: all 0.35s ease-in-out;
+	-moz-transition: all 0.35s ease-in-out;
+	-webkit-transition: all 0.35s ease-in-out;
+	-o-transition: all 0.35s ease-in-out;
 	text-decoration: none;
 }
 /* District 19 Links */
@@ -826,7 +837,7 @@ img.people-list {
 	margin-top: 20px;
 	float: right;
 	text-align: right;
-	width: 75%;
+	width: 90%;
 }
 .centered-info-001 {
 	
@@ -871,6 +882,7 @@ img.people-list {
 	margin: auto;
 	text-align: center;
 	width: auto;
+	
 }
 .image-small-center {
 	margin: auto;
@@ -901,6 +913,7 @@ img.people-list {
 	width: 100%;
 	margin: auto;
 	text-align: center;
+		margin-top: -30px;
 }
 .row {
 	width: 100%;
@@ -960,6 +973,9 @@ img.people-list {
 .social-links-small {
 	margin-bottom: -5px;
 	margin-top: -25px;
+	text-align: center;
+	margin: auto;
+	float: none;
 	
 }
 .social-links li a i {
@@ -1011,7 +1027,11 @@ img.people-list {
 }
 
 .list-inline {
-	padding: 0px;
+	margin-bottom: -5px;
+	margin-top: -25px;
+	text-align: center;
+	margin: auto;
+	float: none;
 }
 
 .dif {
@@ -1029,10 +1049,13 @@ img.people-list {
 
 
 
-.social-media {
-	
-}
+
 
 .social-media-small {
-	
+	text-align: center;
+	margin: auto;
+	float: none;
 }
+
+
+
