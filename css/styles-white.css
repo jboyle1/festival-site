@@ -230,13 +230,15 @@ aside {
 	float: left;
 	display: inline-block;
 	margin-left: 30px;
-	margin-top: 48px;
+	margin-top: 58px;
+	font-size: 11px;
 }
 .instagram {
-	float: right;
+		float: right;
 	display: inline-block;
-	margin-top: 51px;
-	margin-right: -33px;
+	font-size: 11px;
+	margin-top: 58px;
+	margin-right: -40px;
 }
 /* Footer */
 
@@ -273,6 +275,7 @@ img.impact-white {
 	left: 50%;
 	margin-top: -100px;
 	margin-left: -211px;
+	
 }
 /* menu items */
 
@@ -337,7 +340,7 @@ img.impact-white {
 	top: 50%;
 	left: 50%;
 	margin-top: -95px;
-	margin-left: -220px;
+	margin-left: -248px;
 }
 /* people names desktop */
 

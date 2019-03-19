@@ -81,10 +81,12 @@ header {
 /* Social */
 
 .fa-instagram {
+	font-size: 10px;
 	float: right;
 	color: white;
 	text-decoration: none;
 	width: 100px;
+	
 	
 }
 
@@ -277,16 +279,15 @@ width: 100%;
 	float: left;
 	display: inline-block;
 	margin-left: 30px;
-	margin-top: 48px;
-
-}
+	margin-top: 58px;
+	font-size: 11px;}
 
 .instagram {
 	float: right;
 	display: inline-block;
-	
-	margin-top: 51px;
-	margin-right: -33px;
+	font-size: 11px;
+	margin-top: 58px;
+	margin-right: -40px;
 
 }
 
@@ -334,8 +335,8 @@ img.impact-white{height: auto;}
 	position: fixed;
   top: 50%;
   left: 50%;
-  margin-top: -100px;
-  margin-left: -211px;
+  margin-top: -126px;
+  margin-left: -265px;
 }
 
 
@@ -351,8 +352,8 @@ img.exhibit-top{height: auto;
 position: fixed;
   top: 50%;
   left: 50%;
-  margin-top: -228px;
-  margin-left: -245px;
+  margin-top: -150px;
+  margin-left: -540px;
 	transition: width 2s linear 1s;
 }
 
@@ -361,8 +362,8 @@ position: fixed;
 position: fixed;
   top: 50%;
   left: 50%;
-   margin-top: -228px;
-  margin-left: -245px;
+   margin-top: -120px;
+  margin-left: -433px;
 	transition: width 2s linear 1s;
 }
 
@@ -370,8 +371,8 @@ position: fixed;
 	position: fixed;
   top: 50%;
   left: 50%;
-  margin-top: -200px;
-  margin-left: -220px;
+  margin-top: -185px;
+  margin-left: -85px;
 }
 
 
@@ -528,3 +529,76 @@ position: fixed;
 }
 
 
+
+.about-001 {
+	position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -220px;
+  margin-left: -40px; /*235px for center*/
+	transition: width 2s linear 1s;
+	color: white;
+	max-width: 460px;
+		text-align: left;
+	font-size: 20px;
+	
+}
+
+.about-002 {
+	position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -180px;
+  margin-left: -151px;
+	transition: width 2s linear 1s;
+	color: white;
+	max-width: 300px;
+		text-align: left;
+	font-size: 14px;
+	
+}
+
+.about-003 {
+	position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -220px;
+  margin-left: -235px;
+	transition: width 2s linear 1s;
+	color: white;
+	max-width: 200px;
+		text-align: center;
+	font-size: 12px;
+	
+}
+
+
+
+
+
+.buy-tickets {
+	position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: 104px;
+  margin-left: 175px;
+	transition: width 2s linear 1s;
+}
+
+.buy-tickets-002 {
+		position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: 83.5px;
+  margin-left: 140px;
+	transition: width 2s linear 1s;
+}
+
+.buy-tickets-small {
+		position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: 161px;
+  margin-left: -35px;
+	transition: width 2s linear 1s;
+}
