@@ -98,7 +98,7 @@ header {
 	width: 100px;
 }
 .fa-instagram:hover {
-	color: #e84610;
+	color: black;
 	transition: all 0.35s ease-in-out;
 	-moz-transition: all 0.35s ease-in-out;
 	-webkit-transition: all 0.35s ease-in-out;
@@ -106,7 +106,7 @@ header {
 	text-decoration: none;
 }
 .fa-twitter:hover {
-	color: #e84610;
+	color: black;
 	transition: all 0.35s ease-in-out;
 	-moz-transition: all 0.35s ease-in-out;
 	-webkit-transition: all 0.35s ease-in-out;
