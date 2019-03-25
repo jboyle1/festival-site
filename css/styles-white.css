@@ -222,6 +222,7 @@ aside {
 .bottom-bar {
 	min-height: 100%;
 	margin-bottom: 30px;
+	z-index: 5;
 }
 .twitter {
 	float: left;
@@ -792,23 +793,27 @@ img.people-list {
 
 
 .split {
-	height: 75%;
+	height: 100%;
 	width: 40%;
 	position: fixed;
-	z-index: 1;
+	z-index: 3;
 	top: 0;
 	overflow-x: hidden;
-	padding-top: 20px;
-	margin-top: 100px;
+	
+	
 	margin-left: 100px;
 	margin-right: 100px;
-	background-color: yellow;
+	background-color: opacity 0;
+	
+background-color: opacity 0;	
+	
 }
 .left {
 	left: 0;
 }
 .right {
 	right: 0;
+	
 }
 .centered {
 	position: absolute;
@@ -818,33 +823,46 @@ img.people-list {
 	text-align: center;
 }
 .centered-001 img {
+	
 }
 .centered-002 img {
 	width: 200px;
+	
 }
 .centered-003 img {
 	width: 250px;
+	
 }
 .bio-image {
-	margin-top: 180px;
+	margin-top: 5px;
+	object-fit: cover;
+	
 }
 .bio-name {
 	margin-top: 320px;
-	float: left;
+	padding-left: 17px;
 }
 .bio-text {
 	margin-top: 20px;
-	float: right;
+	padding-left: 60px;
 	text-align: left;
-	width: 100%;
+	width: 90%;
+	float: left;
+	z-index: 10;
 }
 .centered-info-001 {
 	float: left;
 	margin-top: -30px;
+	margin-left: 40px;
+  top: 50%;
+  left: 50%;
+
 }
 .centered-info-002 {
 	float: left;
-	;
+	
+	  top: 50%;
+  left: 50%;
 }
 .small-bio {
 	width: 100%;
@@ -881,7 +899,7 @@ img.people-list {
 	margin: auto;
 	text-align: center;
 	width: auto;
-	margin-top: -100px;
+	margin-top: -130px;
 }
 .image-small-center {
 	margin: auto;
@@ -905,7 +923,7 @@ img.people-list {
 	max-width: 300px;
 	margin: auto;
 	text-align: center;
-	margin-top: 120px;
+	margin-top: 160px;
 }
 .middle-bio-003 {
 	width: 100%;
@@ -917,6 +935,7 @@ img.people-list {
 	width: 100%;
 	margin: auto;
 	text-align: center;
+	
 }
 .bio-image-003 {
 	width: 100%;
@@ -1030,8 +1049,8 @@ img.people-list {
 }
 .social-media-001 {
 	position: absolute;
-	margin-top: 326.5px;
-	margin-left: 190px;
+	margin-top: -43.5px;
+	margin-left: 210px;
 }
 .bio-name-med {
 	width: 100%;
@@ -1047,23 +1066,23 @@ img.people-list {
 }
 .social-media-charlotte {
 	position: absolute;
-	margin-top: 326.5px;
-	margin-left: 340px;
+	margin-top: 8px;
+	margin-left: 20px;
 }
 .social-media-fiona-m {
 	position: absolute;
-	margin-top: 326.5px;
-	margin-left: 260px;
+	margin-top: -43.3px;
+	margin-left: 270px;
 }
 .social-media-harry {
 	position: absolute;
-	margin-top: 326.5px;
-	margin-left: 205px;
+	margin-top: -43.3px;
+	margin-left: 215px;
 }
 .social-media-hope {
 	position: absolute;
-	margin-top: 326.5px;
-	margin-left: 170px;
+	margin-top: -43.3px;
+	margin-left: 180px;
 }
 .small {
 	position: fixed;
@@ -1075,56 +1094,114 @@ img.people-list {
 }
 .social-media-isabel {
 	position: absolute;
-	margin-top: 326.5px;
-	margin-left: 210px;
+	margin-top: -43.3px;
+	margin-left: 220px;
 }
 .social-media-jake {
 	position: absolute;
-	margin-top: 326.5px;
-	margin-left: 150px;
+	margin-top: -43.3px;
+	margin-left: 160px;
 }
 .social-media-jed {
 	position: absolute;
-	margin-top: 326.5px;
-	margin-left: 110px;
+	margin-top: -43.3px;
+	margin-left: 120px;
 }
 .social-media-josh {
 	position: absolute;
-	margin-top: 326.5px;
-	margin-left: 150px;
+	margin-top: -43.3px;
+	margin-left: 160px;
 }
 .social-media-lizzy {
 	position: absolute;
-	margin-top: 326.5px;
-	margin-left: 165px;
+	margin-top: -43.3px;
+	margin-left: 175px;
 }
 .social-media-lucy {
 	position: absolute;
-	margin-top: 326.5px;
-	margin-left: 155px;
+	margin-top: -43.3px;
+	margin-left: 165px;
 }
 .social-media-mantas {
 	position: absolute;
-	margin-top: 326.5px;
-	margin-left: 240px;
+	margin-top: -43.3px;
+	margin-left: 250px;
 }
 .social-media-marie {
 	position: absolute;
-	margin-top: 326.5px;
-	margin-left: 185px;
+	margin-top: -43.3px;
+	margin-left: 195px;
 }
 .social-media-thyra {
 	position: absolute;
-	margin-top: 326.5px;
-	margin-left: 190px;
+	margin-top: -43.3px;
+	margin-left: 210px;
 }
 .social-media-tom {
 	position: absolute;
-	margin-top: 326.5px;
-	margin-left: 130px;
+	margin-top: -43.3px;
+	margin-left: 145px;
 }
 .social-media-zac {
 	position: absolute;
-	margin-top: 326.5px;
-	margin-left: 125px;
+	margin-top: -43.3px;
+	margin-left: 135px;
+}
+
+.bio-image img {
+	width:330px;
+	height:413px;
+	z-index: 10px;
+	margin-top: 45px;
+}
+
+.bio-image-small img {
+	width:160px;
+	height:200px;
+}
+
+.bio-image-D {
+	margin-top: 0px;
+	object-fit: cover;
+}
+
+img .bio-image{height: auto;}
+
+img .bio-text{height: auto;}
+
+.bio-001 {
+	position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -350px;
+  margin-left: -530px;
+	transition: width 2s linear 1s;
+}
+
+
+
+.v-center-002 {
+position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 500px;
+	height: 500px;
+	margin-top: -380px; /* Half the height */
+	margin-left: -250px; /* Half the width */
+}
+
+.v-center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 500px;
+	height: 500px;
+	margin-top: -380px; /* Half the height */
+	margin-left: -260px; /* Half the width */
+}
+
+.social-media-katie {
+	position: absolute;
+	margin-top: -43.3px;
+	margin-left: 190px;
 }
