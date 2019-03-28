@@ -9,6 +9,13 @@ html, body {
   height: 100%;
   margin: 0;
 	background: -webkit-linear-gradient(top, rgba(0,0,0, 1), rgba(0, 0, 0, 1)), url("");
+	
+	
+	
+	
+	
+	
+	
 
 }
 	/*----- fade on load screen
@@ -190,8 +197,8 @@ header {
 position: fixed;
   top: 50%;
   left: 50%;
-  margin-top: -350px;
-  margin-left: -530px;
+  margin-top: -325px;
+  margin-left: -490px;
 	transition: width 2s linear 1s;
 	
   	
@@ -534,13 +541,15 @@ position: fixed;
 	position: fixed;
   top: 50%;
   left: 50%;
-  margin-top: -220px;
+  margin-top: -200px;
   margin-left: -40px; /*235px for center*/
 	transition: width 2s linear 1s;
 	color: white;
 	max-width: 460px;
 		text-align: left;
 	font-size: 20px;
+	font-weight: 300;
+	
 	
 }
 
@@ -548,13 +557,15 @@ position: fixed;
 	position: fixed;
   top: 50%;
   left: 50%;
-  margin-top: -180px;
+  margin-top: -160px;
   margin-left: -151px;
 	transition: width 2s linear 1s;
 	color: white;
 	max-width: 300px;
 		text-align: left;
 	font-size: 14px;
+	font-weight: 300;
+	font-weight: 300;
 	
 }
 
