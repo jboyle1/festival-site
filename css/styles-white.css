@@ -13,6 +13,9 @@ html, body2 {
 	margin: 0;
 	background: -webkit-linear-gradient(top, rgba(255,255 ,255 , 1), rgba(255, 255, 255, 1)), url("");
 }
+
+
+}
 /*----- fade on load screen
         -moz-animation: fadein 3s; 
         -ms-animation: fadein 3s; 
@@ -62,6 +65,7 @@ a {
 header {
 	position: fixed;
 	width: 100%;
+	
 }
 /* Top Bar */
 
@@ -440,8 +444,8 @@ img.impact-white {
 	position: fixed;
 	top: 50%;
 	left: 50%;
-	margin-top: 23px;
-	margin-left: -358px;
+	margin-top: 28px;
+	margin-left: -355px;
 }
 .people-014 {
 	position: fixed;
@@ -586,8 +590,8 @@ img.people-list {
 	position: fixed;
 	top: 50%;
 	left: 50%;
-	margin-top: 20px;
-	margin-left: -267px;
+	margin-top: 22px;
+	margin-left: -265px;
 }
 .people-033 {
 	position: fixed;
@@ -754,8 +758,8 @@ img.people-list {
 	position: fixed;
 	top: 50%;
 	left: 50%;
-	margin-top: -27.5px;
-	margin-left: 10px;
+	margin-top: -27.2px;
+	margin-left: -5px;
 }
 .people-054 {
 	position: fixed;
@@ -775,7 +779,7 @@ img.people-list {
 	position: fixed;
 	top: 50%;
 	left: 50%;
-	margin-top: -27px;
+	margin-top: -27.5px;
 	margin-left: 108px;
 }
 .people-057 {
@@ -836,7 +840,7 @@ background-color: opacity 0;
 }
 .bio-image {
 	margin-top: -80px;
-	object-fit: cover;
+	
 	
 }
 .bio-name {
@@ -971,6 +975,7 @@ background-color: opacity 0;
 }
 .bio-image-small {
 	margin-bottom: 0px;
+	
 }
 /* bio pages social links */
 .uppercase {
@@ -1074,8 +1079,8 @@ background-color: opacity 0;
 }
 .social-media-fiona-m {
 	position: absolute;
-	margin-top: -43.3px;
-	margin-left: 270px;
+	margin-top: -33px;
+	margin-left: 200px;
 }
 .social-media-harry {
 	position: absolute;
@@ -1235,4 +1240,81 @@ img .bio-image-betsy{height: auto;}
 
 .bio-image-small-betsy {
 	margin-bottom: 0px;
+}
+
+.bio-image-katie img {
+	width: 413px;
+	height: 413px;
+}
+
+.bio-image-katie {
+	margin-top: -40px;
+}
+
+.bio-image-katie {height: auto;
+}
+
+.bio-image-katie-small img {
+	width: 120px;
+	height: 120px;
+}
+
+.bio-name-feona {
+	margin-top: 325px;
+	padding-left: 20px;
+}
+
+.white {
+	color: white;
+}
+
+.black{
+	background-color: black;
+	border: none;
+
+	height: 100%;
+	margin: 0;
+	background: -webkit-linear-gradient(top, rgba(0,0,0, 1), rgba(0, 0, 0, 1)), url("");
+	border: none;
+}
+.about-001 {
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -40px; /*235px for center*/
+    transition: width 2s linear 1s;
+    color: white;
+    max-width: 460px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.about-003 {
+	    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -220px;
+    margin-left: -235px;
+    transition: width 2s linear 1s;
+    color: white;
+    max-width: 200px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.about-002 {
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -160px;
+    margin-left: -151px;
+    transition: width 2s linear 1s;
+    color: white;
+    max-width: 300px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 300;
+    font-weight: 300;
 }
